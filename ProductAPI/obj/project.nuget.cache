@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yi7OoG39asz5CKb2zsHcGv32t7SQYwtG5M5wKXtL2A/r0Vqk0uhmOOHWjv0/B46bGfo6WaRzizeZa1AU2sAYEw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\mohamed\\Documents\\Formation\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL"
+    }
+  ]
+}
