@@ -1,0 +1,78 @@
+# 🔥 Visual Studio / Rider / VS Code
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.user
+*.rsuser
+*.csproj.user
+ 
+# 🔥 Build et binaires
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.vspscc
+*.vssscc
+*.userprefs
+*.appconfig
+ 
+# 🔥 Dépendances NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/repositories.config
+ 
+# 🔥 Cache et fichiers temporaires
+*.pidb
+*.suo
+*.svclog
+*.user
+*.tlog
+*.tss
+ 
+# 🔥 Logs et traceurs
+logs/
+*.log
+log/
+ 
+# 🔥 Configuration privée / Secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+ 
+# 🔥 Migrations EF Core (optionnel : ignorer si DB en dev)
+Migrations/
+*.db
+*.sqlite
+*.mdf
+*.ldf
+ 
+# 🔥 Fichiers Docker
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+ 
+# 🔥 Conteneurs et Kubernetes
+.kube/
+kubernetes/
+helm/
+*.crt
+*.key
+ 
+# 🔥 JetBrains Rider et Resharper
+.idea/
+*.sln.DotSettings.user
+resharper.xml
+ 
