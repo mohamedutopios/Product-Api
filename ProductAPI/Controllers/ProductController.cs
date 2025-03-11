@@ -9,6 +9,7 @@ namespace ProductAPI.Controllers
 {
     [Route("api/products")]
     [ApiController]
+    [Authorize(Policy = "ApiScope")]
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
